@@ -1,0 +1,429 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\IlanSitesi.bundle.scp.css",
+      "PackagePath": "staticwebassets\\IlanSitesi.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\03107533-b819-402a-8aba-257e7d15c4ec.png",
+      "PackagePath": "staticwebassets\\uploads\\03107533-b819-402a-8aba-257e7d15c4ec.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\04c9459e-33fd-46bb-ae67-e13bc07e5c64.png",
+      "PackagePath": "staticwebassets\\uploads\\04c9459e-33fd-46bb-ae67-e13bc07e5c64.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\051ab9b7-843f-4675-83c7-ca9e91bb4e6d.png",
+      "PackagePath": "staticwebassets\\uploads\\051ab9b7-843f-4675-83c7-ca9e91bb4e6d.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\056e39b2-0b9b-438c-8c8c-6964ee2d6b96.png",
+      "PackagePath": "staticwebassets\\uploads\\056e39b2-0b9b-438c-8c8c-6964ee2d6b96.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\05f225cd-4eab-49ee-9700-1670c271f58f.png",
+      "PackagePath": "staticwebassets\\uploads\\05f225cd-4eab-49ee-9700-1670c271f58f.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\19c70d8d-fc11-49c9-bb66-ebfb66d113af.jpg",
+      "PackagePath": "staticwebassets\\uploads\\19c70d8d-fc11-49c9-bb66-ebfb66d113af.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\1b4b0730-4f16-4af1-828f-6df8fd9b2ef4.png",
+      "PackagePath": "staticwebassets\\uploads\\1b4b0730-4f16-4af1-828f-6df8fd9b2ef4.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\1b9a86fa-4505-42c5-be22-8a9cef7797bb.png",
+      "PackagePath": "staticwebassets\\uploads\\1b9a86fa-4505-42c5-be22-8a9cef7797bb.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\1d4a88b8-7c1e-4b69-93b6-2c3d4494cdb9.png",
+      "PackagePath": "staticwebassets\\uploads\\1d4a88b8-7c1e-4b69-93b6-2c3d4494cdb9.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\20b04563-d04a-4133-be28-3c581e46a1db.png",
+      "PackagePath": "staticwebassets\\uploads\\20b04563-d04a-4133-be28-3c581e46a1db.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\2380470e-7c4b-4ef3-9eb1-11a279db7ee8.png",
+      "PackagePath": "staticwebassets\\uploads\\2380470e-7c4b-4ef3-9eb1-11a279db7ee8.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\25af831a-cf15-4535-8a03-609b131d282f.png",
+      "PackagePath": "staticwebassets\\uploads\\25af831a-cf15-4535-8a03-609b131d282f.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\2a439e89-c532-4f5c-9892-999cc2924f38.png",
+      "PackagePath": "staticwebassets\\uploads\\2a439e89-c532-4f5c-9892-999cc2924f38.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\2e7bdec5-b108-4fac-bff0-fa4d0f050177.png",
+      "PackagePath": "staticwebassets\\uploads\\2e7bdec5-b108-4fac-bff0-fa4d0f050177.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\3ead3db8-d8ea-4df9-aa93-e166cdae2bce.png",
+      "PackagePath": "staticwebassets\\uploads\\3ead3db8-d8ea-4df9-aa93-e166cdae2bce.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\47f3031f-47fe-4749-83cf-cf222ea40754.png",
+      "PackagePath": "staticwebassets\\uploads\\47f3031f-47fe-4749-83cf-cf222ea40754.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\4ec5f303-de37-42a1-83c1-a07f74b9a013.png",
+      "PackagePath": "staticwebassets\\uploads\\4ec5f303-de37-42a1-83c1-a07f74b9a013.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\5224a28a-154a-4277-89f6-747d882b7044.png",
+      "PackagePath": "staticwebassets\\uploads\\5224a28a-154a-4277-89f6-747d882b7044.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\53ba7023-97d7-4a58-b6e8-4530f82b5db3.png",
+      "PackagePath": "staticwebassets\\uploads\\53ba7023-97d7-4a58-b6e8-4530f82b5db3.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\5a0e6677-9425-4fb6-adb0-1b8d777bda41.png",
+      "PackagePath": "staticwebassets\\uploads\\5a0e6677-9425-4fb6-adb0-1b8d777bda41.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\5fda5e3b-f816-48a1-a65c-144aa5ae2433.png",
+      "PackagePath": "staticwebassets\\uploads\\5fda5e3b-f816-48a1-a65c-144aa5ae2433.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\6921737c-ac49-499a-8e4d-279b48cf35b0.png",
+      "PackagePath": "staticwebassets\\uploads\\6921737c-ac49-499a-8e4d-279b48cf35b0.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\73aebf75-fc1f-4882-b4a4-008c93d8e788.png",
+      "PackagePath": "staticwebassets\\uploads\\73aebf75-fc1f-4882-b4a4-008c93d8e788.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\74d93d97-8acc-4ebd-a328-b06111e7599d.png",
+      "PackagePath": "staticwebassets\\uploads\\74d93d97-8acc-4ebd-a328-b06111e7599d.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\752755b7-f457-448f-a701-393452d00cd2.png",
+      "PackagePath": "staticwebassets\\uploads\\752755b7-f457-448f-a701-393452d00cd2.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\8095781e-76a3-4fc6-8d0c-ab9968a16d23.png",
+      "PackagePath": "staticwebassets\\uploads\\8095781e-76a3-4fc6-8d0c-ab9968a16d23.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\84e91c08-e91e-4f7b-af0f-c33333639a59.png",
+      "PackagePath": "staticwebassets\\uploads\\84e91c08-e91e-4f7b-af0f-c33333639a59.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\9287322a-d14d-402c-b104-db22319e3db9.png",
+      "PackagePath": "staticwebassets\\uploads\\9287322a-d14d-402c-b104-db22319e3db9.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\98a85064-4e2e-42d3-acbf-f8e5d785bd1e.png",
+      "PackagePath": "staticwebassets\\uploads\\98a85064-4e2e-42d3-acbf-f8e5d785bd1e.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\a44dc654-a067-4971-9158-7381d458f63d.png",
+      "PackagePath": "staticwebassets\\uploads\\a44dc654-a067-4971-9158-7381d458f63d.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\a8b9376c-b6f2-4564-b084-f66ba38f649e.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\a8b9376c-b6f2-4564-b084-f66ba38f649e.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\aa8f25bd-4eac-4eba-a8e1-05d22540243c.png",
+      "PackagePath": "staticwebassets\\uploads\\aa8f25bd-4eac-4eba-a8e1-05d22540243c.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\b66025bc-7867-470f-acd6-2547416e85db.png",
+      "PackagePath": "staticwebassets\\uploads\\b66025bc-7867-470f-acd6-2547416e85db.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\be9de53c-a567-497d-a72a-6a534345c29d.png",
+      "PackagePath": "staticwebassets\\uploads\\be9de53c-a567-497d-a72a-6a534345c29d.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\bf333b2a-80d1-43dd-9515-a4e251c1c734.png",
+      "PackagePath": "staticwebassets\\uploads\\bf333b2a-80d1-43dd-9515-a4e251c1c734.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\c2bcaaa0-da8d-4c59-8e55-46f418ecdb02.png",
+      "PackagePath": "staticwebassets\\uploads\\c2bcaaa0-da8d-4c59-8e55-46f418ecdb02.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\d0adddd4-77b7-4e82-a510-161e36be556b.png",
+      "PackagePath": "staticwebassets\\uploads\\d0adddd4-77b7-4e82-a510-161e36be556b.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\d63c935c-9b51-4e99-a74b-876e590003df.png",
+      "PackagePath": "staticwebassets\\uploads\\d63c935c-9b51-4e99-a74b-876e590003df.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\e2c3ccde-82fb-4d63-b2d4-7769b96c7283.png",
+      "PackagePath": "staticwebassets\\uploads\\e2c3ccde-82fb-4d63-b2d4-7769b96c7283.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\f9d4af79-ca20-4448-b184-948c954a39e5.png",
+      "PackagePath": "staticwebassets\\uploads\\f9d4af79-ca20-4448-b184-948c954a39e5.png"
+    },
+    {
+      "Id": "C:\\Users\\kadir\\Desktop\\works\\SQL\\IlanSitesi\\wwwroot\\uploads\\fa99dcd7-cc16-4169-8b20-0e0dd77efdc2.png",
+      "PackagePath": "staticwebassets\\uploads\\fa99dcd7-cc16-4169-8b20-0e0dd77efdc2.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.IlanSitesi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.IlanSitesi.props",
+      "PackagePath": "build\\IlanSitesi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.IlanSitesi.props",
+      "PackagePath": "buildMultiTargeting\\IlanSitesi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.IlanSitesi.props",
+      "PackagePath": "buildTransitive\\IlanSitesi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

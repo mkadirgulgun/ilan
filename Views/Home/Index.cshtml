@@ -1,0 +1,85 @@
+﻿@model List<Ilan>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    /* General body styling */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #eef2f7;
+        color: #333;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Container for products */
+    .product-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    /* Individual product item styling */
+    .product-item {
+        background-color: #ffffff;
+        border: 1px solid #dee2e6;
+        border-radius: 8px;
+        padding: 20px;
+        margin: 10px;
+        width: 30%;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    /* Image styling */
+    .product-img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 15px;
+    }
+
+    /* Product details styling */
+    .product-name {
+        margin: 0;
+        padding: 5px 0;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .product-price {
+        margin: 0;
+        padding: 5px 0;
+        font-size: 18px;
+        font-weight: bold;
+        color: #007bff;
+    }
+
+    .product-date {
+        margin: 0;
+        padding: 5px 0;
+        font-size: 12px;
+        color: #6c757d;
+    }
+
+</style>
+<form method="post" action="/home/index">
+    <div class="product-container">
+        @foreach (var urun in Model)
+        {
+            <div class="product-item">
+                <img src="/uploads/@urun.ImgUrl" alt="@urun.Name" class="product-img">
+                <p class="product-name">@urun.Name</p>
+                <p class="product-price">@urun.Price.ToString("N") TL</p>
+                <p class="product-date">İlana eklenme tarihi: @urun.UpdatedDate.ToString("dd-MM-yyyy HH:mm")</p>
+            </div>
+        }
+    </div>
+</form>

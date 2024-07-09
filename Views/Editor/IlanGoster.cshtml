@@ -1,0 +1,115 @@
+﻿@model List<Ilan?>
+
+<style>
+    /* General body styling */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #eef2f7;
+        color: #333;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Table styling */
+    .table {
+        width: 100%;
+        margin: 20px 0;
+        border-collapse: collapse;
+        background-color: #ffffff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+        /* Table header styling */
+        .table thead {
+            background-color: #007bff;
+            color: #ffffff;
+        }
+
+            .table thead th {
+                padding: 10px;
+                text-align: left;
+            }
+
+        /* Table body styling */
+        .table tbody tr {
+            border-bottom: 1px solid #dee2e6;
+        }
+
+            .table tbody tr:nth-child(even) {
+                background-color: #f8f9fa;
+            }
+
+        .table tbody td {
+            padding: 10px;
+        }
+
+    /* Button styling */
+    .btn {
+        display: inline-block;
+        padding: 6px 12px;
+        margin: 5px;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        background-color: #007bff;
+        border: 1px solid #007bff;
+        border-radius: 4px;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+        .btn:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+    /* Confirm dialog styling */
+    .btn-primary[onclick*="confirm"] {
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+
+        .btn-primary[onclick*="confirm"]:hover {
+            background-color: #c82333;
+            border-color: #bd2130;
+        }
+
+</style>
+<h2>Yorumlar</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col" width="5%">İlan Id</th>
+            <th scope="col" width="20%">İlan Adı</th>
+            <th scope="col" width="20%">Ad Soyad</th>
+            <th scope="col" width="20%">Fiyat</th>
+            <th scope="col" width="40%">E-Posta</th>
+            <th scope="col" width="20%">Tarih</th>
+            <th scope="col" width="20%">#</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.UserName</td>
+                <td>@item.Price.ToString("N") TL</td>
+                <td>@item.Email</td>
+                <td>@item.CreatedDate</td>
+                <td>
+                    <a href="/editor/IlanOnayla/@item.Id" class="btn btn-primary">Onayla</a>
+                    <a href="/editor/IlanReddet/@item.Id" class="btn btn-primary" onclick="return confirm('Emin misin?')">Reddet</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

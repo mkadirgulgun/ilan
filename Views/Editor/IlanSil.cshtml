@@ -1,0 +1,142 @@
+﻿@model List<Ilan>
+
+@{
+    ViewData["Title"] = "İlan Sil";
+}
+<style>
+    /* General body styling */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #eef2f7;
+        color: #333;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Container styling */
+    .container {
+        max-width: 1000px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Row styling */
+    .row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        padding: 15px 0;
+    }
+
+    /* Column styling */
+    .col-sm-6, .col-sm-2 {
+        padding: 10px;
+        flex: 1;
+    }
+
+    /* Form styling */
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 15px;
+        padding: 15px;
+        background-color: #ffffff;
+        border: 1px solid #dee2e6;
+        border-radius: 8px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+        /* Input styling */
+        form input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            font-size: 14px;
+            background-color: white;
+        }
+
+    /* Button styling */
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        padding: 10px 20px;
+        font-size: 14px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+    /* Alert styling */
+    .alert-primary {
+        background-color: #cce5ff;
+        border-color: #b8daff;
+        color: #004085;
+        padding: 15px;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+
+    /* Additional styling for better spacing */
+    .form-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+        .form-row > div {
+            flex: 1;
+            padding: 5px;
+        }
+
+            .form-row > div button {
+                width: 100%;
+            }
+
+</style>
+<div class="container">
+    <div class="row mb-2">
+        <div class="col-sm-6"><strong>İlan Adı</strong></div>
+        <div class="col-sm-2"><strong>Fiyat</strong></div>
+        <div class="col-sm-2"><strong>Fotoğraf</strong></div>
+        <div class="col-sm-2"><strong>Eklenme Tarihi</strong></div>
+    </div>
+    @foreach (var ilan in Model)
+    {
+        <form class="row g-3 mb-1" method="post" action="/Editor/IlanSil/@ilan.Id" onsubmit="return confirm('İlanı silmek istediğinize emin misiniz?');">
+            <div class="col-sm-6">
+                <input type="text" style="background-color:white" class="form-control" name="Name" value="@ilan.Name" placeholder="İlan Adı" readonly>
+            </div>
+            <div class="col-sm-2">
+                <input type="number" style="background-color:white" class="form-control" name="Price" value="@ilan.Price" placeholder="Fiyat" readonly>
+            </div>
+            <div class="col-sm-2">
+                <input type="url" style="background-color:white" class="form-control" name="Img" value="@ilan.ImgUrl" placeholder="Fotoğraf" readonly>
+            </div>
+            <div class="col-sm-2">
+                <input type="datetime" style="background-color:white" class="form-control" name="Date" value="@ilan.CreatedDate" placeholder="Tarih" readonly>
+            </div>
+            <div class="col-sm-2 align-self-end">
+                <button class="btn btn-primary">Sil</button>
+            </div>
+        </form>
+    }
+
+    @if (ViewData["Mesaj"] != null)
+    {
+        <div class="alert alert-primary" role="alert">
+            @ViewData["Mesaj"]
+        </div>
+    }
+</div>

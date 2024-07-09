@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Editör";
+}
+
+<style>
+    .editor-list {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        .editor-list li {
+            margin-bottom: 10px;
+        }
+
+            .editor-list li a {
+                text-decoration: none;
+                color: cornflowerblue;
+                display: block;
+                padding: 5px 10px;
+                border-radius: 5px;
+                background-color: #f0f0f0;
+                transition: background-color 0.3s ease;
+            }
+
+                .editor-list li a:hover {
+                    background-color: #e0e0e0;
+                }
+</style>
+
+<h4>Editör</h4>
+<ul class="editor-list">
+    <li><a href="/Editor/IlanGoster" target="_blank">İlan Onayla</a></li>
+    <li><a href="/Editor/IlanGuncelle" target="_blank">İlan Güncelleme</a></li>
+    <li><a href="/Editor/IlanSil" target="_blank">İlan Silme</a></li>
+</ul>

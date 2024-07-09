@@ -1,0 +1,117 @@
+﻿@model List<Ilan>
+<style>
+    /* Container styles */
+    .container {
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Row styles */
+    .row {
+        margin-bottom: 15px;
+    }
+
+    /* Column styles */
+    .col-sm-1, .col-sm-2, .col-sm-4, .col-sm-6 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    /* Form control styles */
+    .form-control {
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /* Button styles */
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        padding: 10px 20px;
+        font-size: 14px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+    /* Alert styles */
+    .alert-primary {
+        background-color: #cce5ff;
+        border-color: #b8daff;
+        color: #004085;
+        padding: 15px;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+
+    /* Header styles */
+    strong {
+        font-weight: bold;
+        font-size: 16px;
+        color: #333;
+    }
+
+    /* Input placeholder styles */
+    .form-control::placeholder {
+        color: #6c757d;
+    }
+
+    /* Spacing adjustments */
+    .mb-2, .mb-1 {
+        margin-bottom: 15px !important;
+    }
+
+    /* Additional customization for visually appealing design */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #eef2f7;
+        color: #333;
+        line-height: 1.6;
+    }
+
+</style>
+<div class="container">
+    <div class="row mb-2">
+        <div class="col-sm-2"><strong>İlan Adı</strong></div>
+        <div class="col-sm-6"><strong>İlan Detay</strong></div>
+        <div class="col-sm-2"><strong>Fiyat</strong></div>
+        <div class="col-sm-2"><strong>#</strong></div>
+    </div>
+    @foreach (var ilan in Model)
+    {
+        <form class="row g-3 mb-1" method="post" action="/Editor/IlanGuncelle/@ilan.Id" autocomplete="off">
+
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="Name" value="@ilan.Name" placeholder="İlan Adı">
+            </div>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="Detail" value="@ilan.Detail" placeholder="İlan Detay">
+            </div>
+            <div class="col-sm-2">
+                <input type="number" class="form-control" name="Price" value="@ilan.Price" placeholder="Fiyat">
+            </div>
+
+            <div class="col-sm-2">
+
+            <button class="btn btn-primary">Güncelle</button>
+            </div>
+
+        </form>
+    }
+
+    @if (ViewData["Mesaj"] != null)
+    {
+        <div class="alert alert-primary" role="alert">
+            @ViewData["Mesaj"]
+        </div>
+    }
+</div>
+

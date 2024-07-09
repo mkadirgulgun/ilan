@@ -1,0 +1,121 @@
+﻿@model List<Ilan>
+
+@{
+    ViewData["Title"] = "İlan Ekle";
+}
+<style>
+    /* General body styling */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #eef2f7;
+        color: #333;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Container styling */
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Form styling */
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+        /* Label styling */
+        form label {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Input and textarea styling */
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="number"],
+        form input[type="file"],
+        form textarea {
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            font-size: 14px;
+            background-color: white;
+        }
+
+    /* Button styling */
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        padding: 10px 20px;
+        font-size: 14px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 20px;
+        align-self: flex-start;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+    /* Alert styling */
+    .alert-primary {
+        background-color: #cce5ff;
+        border-color: #b8daff;
+        color: #004085;
+        padding: 15px;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+
+    /* Additional customization for visually appealing design */
+    form input[type="file"] {
+        padding: 5px;
+    }
+
+    form textarea {
+        resize: vertical;
+        height: 100px;
+    }
+
+</style>
+<div class="container">
+    <form class="row g-3 mb-1" method="post" action="/Editor/IlanEkle" autocomplete="off" enctype="multipart/form-data">
+        <label for="UserName">Ad Soyad</label>
+        <input type="text" name="UserName" required placeholder="Ad Soyad" />
+
+        <label for="Email">E-Posta</label>
+        <input type="email" name="Email" required placeholder="E-posta" />
+
+        <label for="Name">İlan Adı</label>
+        <input type="text" class="form-control" style="background-color: white" name="Name" required placeholder="İlan Adı" />
+
+        <label for="Price">Fiyat</label>
+        <input type="number" class="form-control" style="background-color: white" name="Price" required placeholder="Fiyat" />
+
+        <label for="Detail">Detay</label>
+        <textarea name="Detail" required placeholder="Detay"></textarea>
+
+        <label for="Image">Fotoğraf</label>
+        <input type="file" name="Image" accept="image/png, image/jpeg" />
+
+        <button class="btn btn-primary">Ekle</button>
+
+        @if (ViewData["Mesaj"] != null)
+        {
+            <div class="alert alert-primary" role="alert">
+                @ViewData["Mesaj"]
+            </div>
+        }
+    </form>
+</div>
